@@ -1,12 +1,39 @@
 {% include base_path %}
+<head>
+  <style>
+    nav.greedy-nav {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      font-weight: bold;
+    }
+    nav.greedy-nav .site-title {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-right: auto;
+    }
+    nav.greedy-nav .visible-links {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
-        <ul class="visible-links">
+        <ul class="site-title">
           <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+        </ul>
+        <ul class="visible-links">
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}

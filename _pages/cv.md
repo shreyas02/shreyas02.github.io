@@ -11,54 +11,15 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* MSc in Mathematics, Birla Institute of Technology and Science, Pilani, K K Birla Goa Campus, 2025
+* B.E. in Mechanical Engineering, Birla Institute of Technology and Science, Pilani, K K Birla Goa Campus, 2025
 
-Work experience
+Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* September 2024 - May 2025 : **Visiting Researcher**
+  * Delft University of Technology
+  * Worked on my master’s thesis project on the topic “Development of preconditioning techniques for simulating complex offshore structures” in collabration with [Alexander Heinlein](https://searhein.github.io/) and [Oriol Colomés](https://www.oriolcolomes.com).
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* August 2022 - September 2024: **Undergraduate researcher**
+  * Birla Institute of Technology and Science, Pilani, K K Birla Goa Campus
+  * Undergraduate research in computational science in collabration with [Vaibhav Joshi](https://www.bits-pilani.ac.in/goa/vaibhav-joshi/).
